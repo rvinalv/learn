@@ -2,6 +2,7 @@
 	background-color: #DCE405;
 	width: 100%;
 	border: 1px solid black;
+	position: relative;
 }
 
 .div2 {
@@ -22,6 +23,14 @@ p {
 
 }
 
+h2 {
+	width: 30%;
+	height: 20%;
+	background-color: skyblue;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
 
 
 
