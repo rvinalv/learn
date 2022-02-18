@@ -1,0 +1,50 @@
+.div1 {
+	background-color: #DCE405;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.div2 {
+	background-color: #0D8E8E;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.div3 {
+	background-color: #BA8257;
+	width: 100%;
+	border: 1px solid black;
+}
+
+p {
+	float: left;
+	border: 1px solid black;
+
+}
+
+
+
+
+
+/****************Desktop view****************/
+@media (min-width: 992px) {
+	.col-desk-3 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/****************Tablet view****************/
+@media (min-width: 768px and max-width: 991px) {
+	.col-tab-2, .col-tab-1 {
+		float: left;
+	}
+
+	.col-tab-2 {
+		width: 50%;
+	}
+
+	.col-tab-1 {
+		width: 100%;
+	}
+}
