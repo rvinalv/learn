@@ -1,60 +1,84 @@
-.div1 {
-	background-color: #DCE405;
-	width: 100%;
-	height: 120px;
-	border: 1px solid black;
-	position: relative;
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: xx-largex;
+  font-weight: bold;
 }
 
-.div2 {
-	background-color: #0D8E8E;
-	width: 100%;
-	border: 1px solid black;
+section {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.div3 {
-	background-color: #BA8257;
-	width: 100%;
-	border: 1px solid black;
+div {
+  float: left;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 p {
-	float: left;
-	border: 1px solid black;
-
+  width: 95%;
+  clear: both;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
-	width: 30%;
-	height: 20%;
-	background-color: skyblue;
-	position: absolute;
-	top: 0px;
-	right: 0px;
+  float: right;
+  margin: 0px 0px 10px 0px;
+  width: 150px;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
 }
 
+.d1 {
+  background-color: #DCE405;
+}
 
+.d2 {
+  background-color: #0D8E8E;
+}
 
+.d3 {
+  background-color: #BA8257;
+}
 
-/****************Desktop view****************/
+/**************** Desktop screen ****************/
 @media (min-width: 992px) {
-	.col-desk-3 {
-		float: left;
-		width: 33.33%;
-	}
+  .col-desk-3 {
+    float: left;
+    width: 33.33%;
+  }
 }
 
-/****************Tablet view****************/
-@media (min-width: 768px and max-width: 991px) {
-	.col-tab-2, .col-tab-1 {
-		float: left;
-	}
+/**************** Tablet screen ****************/
+@media (min-width: 768px) and (max-width: 991px) {
 
-	.col-tab-2 {
-		width: 50%;
-	}
+  .col-tab-2 {
+    float: left;
+    width: 50%;
+  }
 
-	.col-tab-1 {
-		width: 100%;
-	}
+  .col-tab-1 {
+    float: left;
+    width: 100%;
+  }
+}
+
+#t1 {
+    background-color: #350404;
+}
+
+#t2 {
+    background-color: #99004C;
+}
+
+#t3 {
+    background-color: #00994C;
 }
